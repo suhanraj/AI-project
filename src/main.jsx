@@ -5,7 +5,7 @@ import App from "./App";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename="/Ai-project/">
+    <BrowserRouter basename="/Ai-project">
       <App />
     </BrowserRouter>
   </StrictMode>
