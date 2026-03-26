@@ -10,10 +10,9 @@ function Home() {
       education: "BCA",
       skills: ["React", "JavaScript","HTML","CSS"],
       projects: ["LOGIN PAGE IN REACT"]
-    };
-
+    }; 
     setStudent(studentData);
-  }, []);
+  },[]);
 
 
   if (!student) {
